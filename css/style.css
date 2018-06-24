@@ -1,0 +1,424 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+}
+
+body {
+    overflow-x: hidden;
+
+}
+
+.secondary {
+    background-color: black;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 80px;
+    line-height: 80px;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    text-transform: uppercase;
+
+}
+
+#logo i {
+    color: white;
+    line-height: 80px;
+    transition: all 0.5s ease-in;
+
+}
+
+#logo i:hover,
+#logo i:focus {
+
+    color: chocolate;
+    transform: scale(2.0) rotate(720deg);
+
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul li a {
+    padding-right: 20px;
+    font-weight: bold;
+    color: white;
+    transition: all 0.5s ease-in;
+
+}
+
+header nav ul li a:hover,
+header nav ul li a:focus {
+
+    color: chocolate;
+    text-decoration: none;
+}
+
+.img1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(..//photo/1.png)
+}
+
+.img2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(..//photo/2.jpg)
+}
+
+.img3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(..//photo/3.jpg)
+}
+
+.img4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(..//photo/4.jpg)
+}
+
+.img5 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(..//photo/5.jpg)
+}
+
+.slider ul li {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.kolor {
+    color: white;
+}
+
+.slider h2 {
+    margin-top: 50vh;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.slider .btn {
+    padding: 10px 40px;
+    margin: 10px 10px;
+    border-radius: 20px;
+    transition: all 0.5s ease-in;
+}
+
+.slider .btn-first {
+    background-color: brown;
+    color: white;
+    border-radius: 20px;
+    transition: all 0.5s ease-in;
+}
+
+.slider .btn-second {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.slider .btn-first:hover {
+    background-color: dodgerblue;
+    color: white;
+    transform: scale(1.3);
+}
+
+.slider .btn-second:hover {
+    background-color: chocolate;
+    color: white;
+    transform: scale(1.3);
+}
+
+.slider .btn-first:hover,
+.slider .btn-first:focus {
+
+    color: white;
+}
+
+.slider .btn-second:hover,
+.slider .btn-second:focus {
+
+    color: white;
+}
+
+.aktualnosci {
+    margin-top: 30px;
+}
+
+.bloki {
+    padding: 80px 0 80px 0;
+    text-align: center;
+}
+
+.bloki h4 {
+    margin: 30px 0 25px 0;
+}
+
+.bloki p {
+    font-size: 14px;
+    padding-bottom: 40px;
+}
+
+.bloki i {
+    height: 120px;
+    width: 120px;
+    font-size: 60px;
+    padding: 30px 20px;
+    background-color: dodgerblue;
+    border-radius: 50%;
+    color: white;
+    transition: all 0.5s ease-in;
+}
+
+.bloki :hover i,
+.bloki i:focus {
+    background-color: chocolate;
+    transform: scale(1.5) rotate(720deg);
+}
+
+.foto-ul {
+    list-style: none;
+    width: 100%;
+
+}
+
+.foto-ul li {
+    display: block;
+    width: 25%;
+    float: left;
+
+}
+
+.photo-figure {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+
+}
+
+.photo-figure img {
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: all 0.5s;
+
+}
+
+.photo-figure img:hover {
+    transform: scale(2.15);
+}
+
+.foto {
+    margin: 30px 0;
+    padding-bottom: 38%;
+}
+
+/*.people h1:after{
+    content: "";
+    width: 200px;
+    height: 3px;
+    background-color: chocolate;
+    position: absolute;
+    bottom: -1890px;
+    margin-left: -240px;
+}
+*/
+
+.people {}
+
+.heading {
+    margin-bottom: 80px;
+}
+
+.team-man {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    top: -50px;
+    overflow: hidden;
+    min-height: 100px;
+    min-width: 100px;
+    height: 100px;
+    width: 100px;
+    border: 10px solid dodgerblue;
+    border-radius: 50%;
+
+}
+
+.team-man img {
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    border-radius: 50%;
+}
+
+.team-block h3 {
+    color: dodgerblue;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-bottom: 5px;
+}
+
+.team-block span {
+    color: #6c6c6c;
+    font-size: 16px;
+    letter-spacing: 0.025em;
+}
+
+.team-block p {
+    color: dimgrey;
+    font-size: 14px;
+    padding: 25px 15px;
+    line-height: 24px;
+}
+
+.team-descr {
+    background-color: #e0e0e0;
+}
+
+.team-social-network {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.team-social-network a {
+    margin: 0 10px;
+}
+
+.team-social-network i {
+    height: 40px;
+    width: 40px;
+    background-color: dodgerblue;
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+    border: 3px solid white;
+    padding-top: 10px;
+}
+
+.team-block:hover .team-descr {
+    background-color: dodgerblue;
+    color: white;
+    transition: 0.8s ease;
+}
+
+.team-block:hover .title h3,
+.team-block:hover .title span {
+    color: white;
+    transition: .5s ease;
+}
+
+.team-block:hover .team-descr p {
+    color: white;
+    transition: .5s ease;
+}
+
+.info-www {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../photo/drewno.jpg);
+    padding: 150px 0;
+    margin-top: 50px;
+    background-attachment: fixed;
+
+}
+
+.info-www i {
+    font-size: 60px;
+    color: white;
+    margin-bottom: 20px;
+    transition: all 0.5s ease-in;
+}
+
+.info-www i:hover {
+    transform: scale(1.5) rotate(720deg);
+}
+
+.info-www span {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+.contact {
+    background-color: dodgerblue;
+    height: 450px;
+}
+
+.contact h1 {
+    color: white;
+    margin-top: 50px;
+}
+
+.contact #button {
+    background-color: chocolate;
+    transition: all 0.5s ease-in;
+    border-radius: 10px;
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+.contact #button:hover,
+.contact #button:focus {
+    background-color: darkblue;
+}
+
+.form-control {
+    border-radius: 0px !important;
+}
+
+.footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../photo/13.jpg);
+    background-attachment: fixed;
+    color: white;
+    background-size: cover;
+    padding: 100px 0;
+
+
+}
+
+.social-icon a {
+    margin: 0 16px 20px 16px;
+    display: inline-block;
+}
+
+.social-icon i {
+    font-size: 40px;
+    color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 5px solid white;
+    line-height: 1.8;
+    transition: all 0.5s ease-in;
+    text-align: center;
+    margin: 0 20px;
+}
+
+.social-icon i:hover,
+.social-icon i:focus {
+    color: dodgerblue;
+    border: 5px solid dodgerblue;
+    transform: scale(1.5);
+}
+
+.copyright {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.linia {
+    width: 100px;
+    border-bottom: 3px solid chocolate;
+    margin: 0 auto;
+    margin-top: 18px;
+
+
+}

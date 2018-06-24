@@ -1,0 +1,218 @@
+.slicknav_menu {
+    display: none;
+}
+
+@media screen and (max-width:992px) {
+    #menu {
+        display: none;
+    }
+    .slicknav_menu {
+        display: inline-block;
+       position: fixed;
+     /*   position: relative;*/
+        background-color: transparent;
+        z-index: 1000;
+        right: 0;
+
+    }
+    header {
+        background: none;
+
+    }
+   #logo i {
+
+       margin-left: 30px;
+    }
+    .slicknav_btn {
+        margin: 15px 15px 0 0;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    .slicknav_nav {
+        background-color: rgba(0, 0, 0, 0.3);
+      width: 200px;
+    }
+
+    .slicknav_nav li {
+        margin: 0;
+        padding: 0;
+        height: 3em;
+        line-height: 3em;
+        text-align: center;
+        text-transform: uppercase;
+
+    }
+    .slicknav_nav li a {
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+        transition: all 0.5s ease-in;
+
+
+    }
+    .slicknav_nav li a:hover,
+    .slicknav_nav li a:focus {
+        text-decoration: none;
+        background-color: white;
+        color: black;
+
+
+    }
+    .slider ul li {
+
+        height: 110vh;
+        margin-top: -10vh;
+    }
+    .slider {}
+    .contact {
+        height: 600px;
+    }
+    .top {
+        
+        margin-bottom: 50px;
+        
+        
+    }
+    
+    .social-icon a {
+        
+    }
+
+    .social-icon i {
+        font-size: 30px;
+        width: 60px;
+        height: 60px;
+        
+        border: 4px solid white;
+        line-height: 1.8;
+        margin: 10px 15px;
+    }
+    .contact {
+        height: 650px;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+
+     .slicknav_menu{
+    margin-top: 15vh;
+    }
+    .header{
+        margin-top: 15vh;
+    }
+    #logo i{
+        margin-top: 15vh;
+       
+        
+    }
+    #logo i:hover,
+    #logo i:focus {
+        color: white;
+        transform: none;
+    }
+
+
+     .slider{
+        margin-top: -15vh;
+         
+    }
+    .slider a {
+        display: inline-block;
+        width: 90%;
+
+    }
+    .slider ul li{
+        height: 125vh;
+    }
+
+    .slider .button {
+        margin-top: 100px;
+    }
+
+    .slider h2 {
+        margin-top: 55vh;
+
+    }
+    .kolor p {
+
+        margin: 0 5px;
+    }
+    .bloki {
+        padding: 30px;
+    }
+    .bloki :hover i,
+    .bloki i:focus {
+
+        transform: none;
+    }
+    .slider .btn {
+        margin: 5px 5px;
+    }
+    .slider .btn-first:hover {
+        
+        transform: none;
+    }
+
+    .slider .btn-second:hover {
+        transform: none;
+    }
+    .info-www i:hover {
+        transform: none;
+    }
+    .social-icon i:hover,
+    .social-icon i:focus {
+       
+        transform: none;
+    }
+}
+
+@media screen and (max-width:765px) {
+
+    .team-social-network {
+        text-align: center;
+        padding-bottom: 55px;
+    }
+
+    .team-man {
+        top: -110px;
+        
+    }
+    .title {
+        margin-top: 130px;
+    }
+    
+    
+}
+
+@media screen and (min-width:700px) {
+    /**@media (min-width: 700px) {*/
+    .przewijanie {
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.6);
+        bottom: 50px;
+        right: 50px;
+        position: fixed;
+        display: none;
+        transition: all 0.5s ease-in;
+        font-size: 22px;
+        z-index: 999;
+    }
+
+    .przewijanie:hover,
+    .przewijanie:focus {
+        transform: scale(1.5);
+        color: rgba(0, 0, 0, 0.6);
+
+    }
+
+
+}
+
+
+@media screen and (max-width:699px) {
+    .przewijanie a{
+        display: none;
+        
+    }
+}
